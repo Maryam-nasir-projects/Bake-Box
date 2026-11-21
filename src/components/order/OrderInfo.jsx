@@ -1,10 +1,15 @@
 function OrderInfo() {
+  const quantity = 5
+  const price = 450
+  const delivery = 100
+  const total = quantity * price + delivery
+
   return (
     <section className="order">
       <h2>Your Order</h2>
-      <p>Brownies: 3 x Rs 450</p>
-      <p>Delivery: Rs 100</p>
-      <p className="total">Total: Rs 1450</p>
+      <p>Brownies: {quantity} x Rs {price}</p>
+      <p>Delivery: Rs {delivery}</p>
+      <p className="total">Total: Rs {total}</p>
     </section>
   )
 }
