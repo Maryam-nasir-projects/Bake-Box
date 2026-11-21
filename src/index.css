@@ -1,3 +1,20 @@
+/* Header */
+.shop-header {
+  background-color: maroon;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.shop-header a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+/* Products */
 .products {
   display: flex;
   gap: 1rem;
@@ -18,4 +35,29 @@
   padding: 0.2rem 0.6rem;
   border-radius: 12px;
   font-size: 0.8rem;
+}
+
+/* Reviews */
+.reviews {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem 2rem;
+}
+
+.review {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: maroon;
+}
+
+.rating {
+  color: gold;
 }
