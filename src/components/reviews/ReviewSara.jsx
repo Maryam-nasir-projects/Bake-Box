@@ -5,9 +5,10 @@ function ReviewSara() {
   return (
     <div className="review">
       <Avatar />
-      <h4>Sara</h4>
-      <Rating />
-      <p>The brownies were so fudgy! Best I have had on campus.</p>
+      <div className="review-body">
+        <h4>Sara A. <Rating /></h4>
+        <p>Best brownies on campus. I ordered twice in one week!</p>
+      </div>
     </div>
   )
 }

@@ -5,9 +5,10 @@ function BrownieCard() {
 
   return (
     <div className="card">
-      <h3>Brownies</h3>
-      <p>Rs {price}</p>
       <Badge />
+      <h3>Chocolate Brownies</h3>
+      <p className="desc">Box of 6, fudgy and warm</p>
+      <p className="price">Rs {price}</p>
     </div>
   )
 }

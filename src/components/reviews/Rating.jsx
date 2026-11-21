@@ -1,5 +1,5 @@
 function Rating() {
-  return <p className="rating">★★★★★</p>
+  return <span className="rating">★★★★★</span>
 }
 
 export default Rating

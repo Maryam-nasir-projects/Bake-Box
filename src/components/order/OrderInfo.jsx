@@ -6,9 +6,9 @@ function OrderInfo() {
 
   return (
     <section className="order">
-      <h2>Your Order</h2>
-      <p>Brownies: {quantity} x Rs {price}</p>
-      <p>Delivery: Rs {delivery}</p>
+      <h2>Your order</h2>
+      <p>{quantity} x Chocolate Brownies at Rs {price}</p>
+      <p>Delivery to your department: Rs {delivery}</p>
       <p className="total">Total: Rs {total}</p>
     </section>
   )

@@ -1,9 +1,5 @@
 function Logo() {
-  return (
-    <div>
-      <h2>Bake Box</h2>
-    </div>
-  )
+  return <h1 className="logo">Noor's Bake Box</h1>
 }
 
 export default Logo

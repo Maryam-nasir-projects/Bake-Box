@@ -1,9 +1,8 @@
 function ContactInfo() {
   return (
     <div className="contact-info">
-      <h3>Contact</h3>
-      <p>Phone: 0300-1234567</p>
-      <p>Instagram: @noorbakebox</p>
+      <h3>Order by message</h3>
+      <p>0300-0000000</p>
     </div>
   )
 }

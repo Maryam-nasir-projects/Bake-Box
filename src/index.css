@@ -1,84 +1,168 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #faf4ee;
+  font-family: Arial, sans-serif;
+  color: #2b2022;
+}
+
+h2 {
+  color: #7a1f23;
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+
 /* Header */
 .shop-header {
-  background-color: maroon;
+  background-color: #7a1f23;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.2rem 2rem;
+  border-radius: 16px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 2rem;
 }
 
 .shop-header a {
   color: white;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 /* Products */
 .products {
   display: flex;
-  gap: 1rem;
-  padding: 2rem;
+  gap: 1.5rem;
 }
 
 .card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
   flex: 1;
-  text-align: center;
+  background-color: white;
+  border: 1px solid #ecd9d0;
+  border-radius: 16px;
+  padding: 1rem 1.5rem 1.5rem;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+.desc {
+  margin: 0 0 0.5rem;
+  color: #6b5a5e;
+}
+
+.price {
+  margin: 0;
+  color: #7a1f23;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .badge {
-  background-color: gold;
-  color: black;
-  padding: 0.2rem 0.6rem;
-  border-radius: 12px;
-  font-size: 0.8rem;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  background-color: #f2b83c;
+  color: #2b2022;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.badge-new {
+  background-color: #2e7d32;
+  color: white;
 }
 
 /* Reviews */
 .reviews {
   display: flex;
-  gap: 1rem;
-  padding: 0 2rem 2rem;
+  gap: 1.5rem;
 }
 
 .review {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 1rem;
   flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  border: 1px solid #ecd9d0;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
 }
 
 .avatar {
-  width: 48px;
-  height: 48px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background-color: maroon;
+  background-color: #c98a8f;
+  flex-shrink: 0;
+}
+
+.review-body h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.3rem;
+}
+
+.review-body p {
+  margin: 0;
+  color: #6b5a5e;
 }
 
 .rating {
-  color: gold;
+  color: #f2b83c;
+  margin-left: 0.5rem;
 }
+
 /* Order */
 .order {
-  margin: 0 2rem 2rem;
-  padding: 1rem 1.5rem;
-  border: 2px solid maroon;
-  border-radius: 8px;
+  margin-top: 2rem;
+  background-color: white;
+  border: 2px dashed #7a1f23;
+  border-radius: 16px;
+  padding: 1rem 2rem 1.5rem;
+}
+
+.order h2 {
+  margin: 0.5rem 0 1rem;
+}
+
+.order p {
+  margin: 0.4rem 0;
+  font-size: 1.3rem;
 }
 
 .total {
+  color: #7a1f23;
+  font-size: 1.8rem !important;
   font-weight: bold;
-  font-size: 1.2rem;
 }
 
 /* Footer */
 .footer {
-  background-color: #222;
+  margin-top: 2rem;
+  background-color: #2b2022;
   color: white;
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+}
+
+.footer h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.footer p {
+  margin: 0;
 }

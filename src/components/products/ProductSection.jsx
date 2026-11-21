@@ -4,10 +4,13 @@ import RollCard from './RollCard'
 
 function ProductSection() {
   return (
-    <section className="products">
-      <BrownieCard />
-      <NankhataiCard />
-      <RollCard />
+    <section className="products-section">
+      <h2>Fresh from the oven</h2>
+      <div className="products">
+        <BrownieCard />
+        <NankhataiCard />
+        <RollCard />
+      </div>
     </section>
   )
 }
