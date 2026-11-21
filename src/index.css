@@ -61,3 +61,24 @@
 .rating {
   color: gold;
 }
+/* Order */
+.order {
+  margin: 0 2rem 2rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid maroon;
+  border-radius: 8px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
