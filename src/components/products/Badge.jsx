@@ -1,5 +1,5 @@
-function Badge() {
-  return <span className="badge">Bestseller</span>
+function Badge({ text }) {
+  return <span className="badge">{text}</span>
 }
 
 export default Badge
