@@ -1,12 +1,13 @@
+
 import Badge from './Badge'
 
-function ProductCard({ name, price, description }) {
+function ProductCard({ name, price, description, badge }) {
   return (
     <div className="card">
-      <Badge text="Bestseller" />
+      <Badge text={badge} />
       <h3>{name}</h3>
-      <p>{description}</p>
-      <p>Rs{price}</p>
+      <p className="desc">{description}</p>
+      <p className="price">Rs {price}</p>
     </div>
   )
 }

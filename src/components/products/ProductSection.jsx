@@ -1,4 +1,5 @@
-import ProductCard from "./ProductCard";
+
+import ProductCard from './ProductCard'
 
 function ProductSection() {
   return (
@@ -7,30 +8,35 @@ function ProductSection() {
 
       <div className="products">
         <ProductCard
-          name="Brownies"
+          name="Chocolate Brownies"
           price={450}
-          description="Delicious chocolate brownies"
+          description="Box of 6, fudgy and warm"
+          badge="Bestseller"
         />
 
         <ProductCard
-          name="Nankhatai"
+          name="Nankhatai Box"
           price={350}
-          description="Traditional homemade cookies"
+          description="Box of 12, cardamom flavour"
+          badge="New"
         />
 
         <ProductCard
-          name="Roll"
+          name="Cinnamon Rolls"
           price={500}
-          description="Freshly baked rolls"
+          description="Box of 4, with cream cheese"
+          badge="Bestseller"
         />
+
         <ProductCard
           name="Chocolate Cookies"
           price={400}
           description="Freshly baked chocolate cookies"
+          badge="New"
         />
       </div>
     </section>
-  );
+  )
 }
 
-export default ProductSection;
+export default ProductSection
