@@ -1,5 +1,4 @@
-
-import ProductCard from './ProductCard'
+import ProductCard from "./ProductCard";
 
 function ProductSection() {
   return (
@@ -24,9 +23,14 @@ function ProductSection() {
           price={500}
           description="Freshly baked rolls"
         />
+        <ProductCard
+          name="Chocolate Cookies"
+          price={400}
+          description="Freshly baked chocolate cookies"
+        />
       </div>
     </section>
-  )
+  );
 }
 
-export default ProductSection
+export default ProductSection;
