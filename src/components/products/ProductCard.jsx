@@ -1,4 +1,3 @@
-
 import Badge from "./Badge";
 
 function ProductCard({ name, price, inStock, left }) {
@@ -10,9 +9,7 @@ function ProductCard({ name, price, inStock, left }) {
 
       <p className="price">Rs {price}</p>
 
-      {inStock && left < 5 && (
-        <p>Only {left} left!</p>
-      )}
+      {inStock && left < 5 && <p className="low-stock">Only {left} left!</p>}
 
       {inStock ? (
         <button>Add to box</button>
