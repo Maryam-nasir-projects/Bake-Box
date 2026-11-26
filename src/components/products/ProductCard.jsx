@@ -12,9 +12,11 @@ function ProductCard({ name, price, inStock, left }) {
       {inStock && left < 5 && <p className="low-stock">Only {left} left!</p>}
 
       {inStock ? (
-        <button>Add to box</button>
+        <button className="add-btn">Add to box</button>
       ) : (
-        <button disabled>Unavailable</button>
+        <button className="unavailable-btn" disabled>
+          Unavailable
+        </button>
       )}
     </div>
   );
