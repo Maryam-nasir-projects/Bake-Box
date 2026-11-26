@@ -13,6 +13,8 @@ function ProductSection() {
             key={product.id}
             name={product.name}
             price={product.price}
+            inStock={product.inStock}
+            left={product.left}
           />
         ))}
       </div>
