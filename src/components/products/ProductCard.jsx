@@ -1,4 +1,3 @@
-
 import Badge from './Badge'
 
 function ProductCard({ name, price, description, badge }) {
