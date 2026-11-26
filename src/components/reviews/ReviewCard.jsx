@@ -1,15 +1,10 @@
 
-import Avatar from './Avatar'
-import Rating from './Rating'
-
-function ReviewCard({ name, comment }) {
+function ReviewCard({ name, rating, comment }) {
   return (
-    <div className="review">
-      <Avatar />
-      <div className="review-body">
-        <h4>{name} <Rating /></h4>
-        <p>{comment}</p>
-      </div>
+    <div className="review-card">
+      <h3>{name}</h3>
+      <p className="stars">{"★".repeat(rating)}</p>
+      <p>{comment}</p>
     </div>
   )
 }
